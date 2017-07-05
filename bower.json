@@ -12,5 +12,5 @@
   "license":  "MIT",
   "main":     "lib/jquery.complety.js",
   "name":     "complety",
-  "version":  "0.1.0"
+  "version":  "0.1.1"
 }
