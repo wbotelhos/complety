@@ -12,7 +12,7 @@
   "dependencies": {
     "jquery": "^3.2.1"
   },
-  "description": "jQuery Complety - An Auto Complete Plugin",
+  "description": "Complety - An Auto Complete Plugin",
   "devDependencies": {
     "jasmine-core": "^2.6.1",
     "jasmine-jquery": "^2.1.1",

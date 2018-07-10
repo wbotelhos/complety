@@ -1,4 +1,4 @@
-# jQuery Complety - An Auto Complete Plugin
+# Complety - An Auto Complete Plugin
 
 [![Build Status](https://img.shields.io/travis/wbotelhos/complety/master.svg)](https://travis-ci.org/wbotelhos/complety)
 [![NPM Version](https://badge.fury.io/js/complety.svg)](https://badge.fury.io/js/complety)
@@ -7,7 +7,7 @@
 [![Code Climate](https://codeclimate.com/github/wbotelhos/complety.png)](https://codeclimate.com/github/wbotelhos/complety)
 [![Support](http://img.shields.io/gittip/wbotelhos.svg)](https://gratipay.com/~wbotelhos)
 
-jQuery Stepy is a plugin that generates a autocomplete.
+Complety is a plugin that generates a autocomplete.
 
 ## Options
 
