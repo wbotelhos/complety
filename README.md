@@ -5,7 +5,7 @@
 [![Dependency](https://david-dm.org/wbotelhos/complety.svg)](https://david-dm.org/wbotelhos/complety)
 [![Dev Dependency](https://david-dm.org/wbotelhos/complety/dev-status.svg)](https://david-dm.org/wbotelhos/complety#info=devDependencies)
 [![Code Climate](https://codeclimate.com/github/wbotelhos/complety.png)](https://codeclimate.com/github/wbotelhos/complety)
-[![Support](http://img.shields.io/gittip/wbotelhos.svg)](https://gratipay.com/~wbotelhos)
+[![Support](https://img.shields.io/badge/donate-%3C3-brightgreen.svg)](https://www.patreon.com/wbotelhos)
 
 Complety is a plugin that generates a autocomplete.
 
