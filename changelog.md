@@ -2,6 +2,10 @@
 
 - &nbsp;
 
+### v0.2.1
+
+- Removes node lock from `package.json`.
+
 ### v0.2.0
 
 #### Changes
