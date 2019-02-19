@@ -10,21 +10,21 @@
     "demo/index.html"
   ],
   "dependencies": {
-    "handlebars": "^4.0.11",
+    "handlebars": "^4.1.0",
     "jquery": "^3.3.1"
   },
   "description": "Complety - An Auto Complete Plugin",
   "devDependencies": {
-    "jasmine-core": "^2.6.1",
+    "jasmine-core": "^2.99.1",
     "jasmine-jquery": "^2.1.1",
-    "jquery-validation": "^1.16.0",
-    "karma": "^1.7.0",
+    "jquery-validation": "^1.19.0",
+    "karma": "^1.7.1",
     "karma-chrome-launcher": "^2.1.1",
-    "karma-firefox-launcher": "^1.0.1",
+    "karma-firefox-launcher": "^1.1.0",
     "karma-fixture": "^0.2.6",
     "karma-html2js-preprocessor": "^1.1.0",
     "karma-ie-launcher": "^1.0.0",
-    "karma-jasmine": "^1.1.0",
+    "karma-jasmine": "^1.1.2",
     "karma-opera-launcher": "^1.0.0",
     "karma-phantomjs-launcher": "^1.0.4",
     "karma-safari-launcher": "^1.0.0"
