@@ -33,9 +33,6 @@
     "lib": "lib",
     "test": "spec"
   },
-  "engines": {
-    "node": "7.10"
-  },
   "homepage": "https://github.com/wbotelhos/complety",
   "keywords": [
     "autocomplete",
