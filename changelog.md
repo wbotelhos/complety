@@ -2,7 +2,15 @@
 
 - &nbsp;
 
+### v0.3.0
+
+#### News
+
+- Add `params` options to be possible pass params to URL query.
+
 ### v0.2.1
+
+#### Updates
 
 - Removes node lock from `package.json`.
 

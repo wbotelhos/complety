@@ -7,7 +7,7 @@
 [![Code Climate](https://codeclimate.com/github/wbotelhos/complety.png)](https://codeclimate.com/github/wbotelhos/complety)
 [![Support](https://img.shields.io/badge/donate-%3C3-brightgreen.svg)](https://www.patreon.com/wbotelhos)
 
-Complety is a plugin that generates a autocomplete.
+Complety is a plugin that generates an autocomplete.
 
 ## Options
 
@@ -17,6 +17,7 @@ delay:                 300                         // time in milliseconds to de
 functions.getValue:    undefined                   // function to choose which attribute of json to use on search
 keys:                  undefined                   // keys of json that will be highlighted
 minChars:              1                           // minimum of chars typed to trigger the search
+params:                {}                          // params sent to query
 suggestion:            undefined                   // an initial suggestion to be shown
 templates.none:        undefined                   // compiled template used to render suggestion of no results
 templates.search:      undefined                   // compiled template used to render suggestion
