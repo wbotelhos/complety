@@ -23,13 +23,14 @@ describe('common', function() {
     // when
 
     // then
-    expect(options.cache).toEqual({});
+    expect(options.cache).toEqual(true);
+    expect(options.cacheData).toEqual({});
     expect(options.delay).toEqual(300);
     expect(options.getValue).toEqual(undefined);
     expect(options.keys).toEqual(undefined);
     expect(options.minChars).toEqual(1);
-    expect(options.templates).toEqual({ none: undefined, search: undefined });
     expect(options.suggestion).toEqual(undefined);
+    expect(options.templates).toEqual({ none: undefined, search: undefined });
     expect(options.url).toEqual(undefined);
 
     expect(options.wrappers).toEqual({
