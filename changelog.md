@@ -2,6 +2,13 @@
 
 - &nbsp;
 
+### v0.4.1
+
+#### Fix
+
+- `cacheData` option must be `{}` as default;
+- Fix cache conditional.
+
 ### v0.4.0
 
 #### News
