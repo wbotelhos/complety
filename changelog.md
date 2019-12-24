@@ -2,11 +2,21 @@
 
 - &nbsp;
 
+### v0.4.0
+
+#### News
+
+- Adds `cacheData` to keep the cache data. The URL is the key and the JSON content is the value. You can preload it.
+
+#### Update
+
+- Option `cache` now enables `true` or disables `false` the cache having `true` as default;
+
 ### v0.3.0
 
 #### News
 
-- Add `params` options to be possible pass params to URL query.
+- Adds `params` options to be possible pass params to URL query.
 
 ### v0.2.1
 

@@ -12,7 +12,8 @@ Complety is a plugin that generates an autocomplete.
 ## Options
 
 ```js
-cache:                 {}                          // keeps json results on keys represented by the request url
+cache:                 true                        // enables cache
+cacheData:             {}                          // keeps json results on keys represented by the request url
 delay:                 300                         // time in milliseconds to delay the search after user typing
 functions.getValue:    undefined                   // function to choose which attribute of json to use on search
 keys:                  undefined                   // keys of json that will be highlighted
