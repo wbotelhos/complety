@@ -18,7 +18,7 @@ delay:                 300                         // time in milliseconds to de
 functions.getValue:    undefined                   // function to choose which attribute of json to use on search
 keys:                  undefined                   // keys of json that will be highlighted
 minChars:              1                           // minimum of chars typed to trigger the search
-params:                {}                          // params sent to query
+params:                {}                          // literal or function params sent to query
 suggestion:            undefined                   // an initial suggestion to be shown
 templates.none:        undefined                   // compiled template used to render suggestion of no results
 templates.search:      undefined                   // compiled template used to render suggestion

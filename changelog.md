@@ -2,6 +2,12 @@
 
 - &nbsp;
 
+### v0.5.0
+
+#### News
+
+- `params` option now can receive function as value.
+
 ### v0.4.1
 
 #### Fix
