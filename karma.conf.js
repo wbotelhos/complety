@@ -1,31 +1,27 @@
-module.exports = function(config) {
+module.exports = function (config) {
   'use strict';
 
   config.set({
-    autoWatch:       true,
-    browsers:        ['ChromeNoSandbox', 'Firefox'],
-    customLaunchers: { ChromeNoSandbox: { base: 'Chrome', flags: ['--no-sandbox'] } },
-    debug:           true,
+    autoWatch: true,
+    browsers: ['Chrome', 'Firefox'],
 
     files: [
       'node_modules/jquery/dist/jquery.min.js',
       'node_modules/jasmine-jquery/lib/jasmine-jquery.js',
 
-      'spec/spec_helper.js',
+      'spec/helper.js',
 
       'spec/fixtures/*.html',
 
       'lib/*.css',
       'lib/*.js',
 
-      'spec/javascripts/**/*.js'
+      'spec/javascripts/**/*.js',
     ],
 
-    frameworks:    ['jasmine', 'fixture'],
-    logLevel:      config.LOG_ERROR,
-    port:          9876,
+    frameworks: ['jasmine', 'fixture'],
+    logLevel: config.LOG_ERROR,
     preprocessors: { '**/*.html': ['html2js'] },
-    reporters:     ['dots'],
-    singleRun:     true
+    singleRun: true,
   });
 };
