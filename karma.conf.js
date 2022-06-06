@@ -16,7 +16,7 @@ module.exports = function (config) {
       'lib/*.css',
       'lib/*.js',
 
-      'spec/javascripts/**/*.js',
+      'spec/**/*.js',
     ],
 
     frameworks: ['jasmine', 'fixture'],
