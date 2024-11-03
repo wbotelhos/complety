@@ -27,7 +27,7 @@
   },
   "directories": {
     "lib": "lib",
-    "test": "spec"
+    "test": "__tests__"
   },
   "homepage": "https://github.com/wbotelhos/complety",
   "keywords": [

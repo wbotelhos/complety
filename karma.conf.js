@@ -2,21 +2,16 @@ module.exports = function (config) {
   'use strict';
 
   config.set({
-    autoWatch: true,
     browsers: ['Chrome', 'Firefox'],
+    debug: true,
 
     files: [
       'node_modules/jquery/dist/jquery.min.js',
-      'node_modules/jasmine-jquery/lib/jasmine-jquery.js',
-
-      'spec/helper.js',
-
-      'spec/fixtures/*.html',
-
       'lib/*.css',
       'lib/*.js',
-
-      'spec/**/*.js',
+      '__tests__/fixtures/*.html',
+      '__tests__/spec_helper.js',
+      '__tests__/javascripts/**/*.js',
     ],
 
     frameworks: ['jasmine', 'fixture'],
