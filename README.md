@@ -1,9 +1,9 @@
 # Complety - An Auto Complete Plugin
 
-[![CI](https://github.com/wbotelhos/complety/workflows/CI/badge.svg)](https://github.com/wbotelhos/complety/actions)
+[![Tests](https://github.com/wbotelhos/complety/workflows/Tests/badge.svg)](https://github.com/wbotelhos/complety/actions)
 [![NPM Version](https://badge.fury.io/js/complety.svg)](https://badge.fury.io/js/complety)
 [![Maintainability](https://api.codeclimate.com/v1/badges/7aba78eff57e5d5049ff/maintainability)](https://codeclimate.com/github/wbotelhos/complety/maintainability)
-[![Sponsor](https://img.shields.io/badge/sponsor-%3C3-green)](https://www.patreon.com/wbotelhos)
+[![Sponsor](https://img.shields.io/badge/sponsor-%3C3-green)](https://github.com/sponsors/wbotelhos)
 
 Complety is a plugin that generates an autocomplete.
 
