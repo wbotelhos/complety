@@ -64,4 +64,24 @@ describe('#_highlight', function () {
       });
     });
   });
+
+  context('when the key is a valid regex char', function () {
+    it('is removed from the match keeping the previous match', function () {
+      // given
+
+      document.querySelector('[data-field]').value = '[';
+
+      var complety = new $.complety.Complety('[data-field]', {
+        keys: ['name'],
+      });
+
+      var suggestion = { name: 'John Doe' };
+
+      // when
+      var result = complety._highlight(suggestion);
+
+      // then
+      expect(result).toEqual({ name: '<b></b>John Doe' });
+    });
+  });
 });
