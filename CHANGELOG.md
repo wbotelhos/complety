@@ -1,3 +1,9 @@
+## v0.6.1
+
+### BugFix
+
++ Ignores valid Regex's chars to avoid break the url search and the highlight match.
+
 ## v0.6.0
 
 ### News
@@ -17,7 +23,7 @@
 
 ## v0.4.1
 
-### BigFix
+### BugFix
 
 + `cacheData` option must be `{}` as default;
 + Fix cache conditional.
