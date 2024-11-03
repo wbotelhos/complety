@@ -46,19 +46,21 @@ $('input').complety({ keys: ['name'] });
 
 ## Functions
 
-|Methods                      |Description                             |
-|-----------------------------|----------------------------------------|
-|complety.abort()             |aborts all pending requests             |
-|complety.hide()              |hides the last suggestions              |
-|complety.loader('start|stop')|starts or stops the loading animation   |
-|complety.readonly(true|false)|enables or disables fields readonly     |
-|complety.search('value')     |executes a search                       |
-|complety.show()              |show the last suggestions               |
-|complety.suggest(json)       |suggest a json result                   |
-|complety.suggestion()        |returns the selected suggestion         |
-|complety.suggestions()       |returns suggestions from the last search|
-|complety.url()               |returns the actual builded url          |
-|complety.wrappers()          |returns the wrappers name               |
+|Methods                 |Description                             |
+|------------------------|----------------------------------------|
+|complety.abort()        |aborts all pending requests             |
+|complety.hide()         |hides the last suggestions              |
+|complety.loader('start')|starts the loading animation            |
+|complety.loader('stop') |starts or stops the loading animation   |
+|complety.readonly(true) |enables fields readonly                 |
+|complety.readonly(false)|disables fields readonly                |
+|complety.search('value')|executes a search                       |
+|complety.show()         |show the last suggestions               |
+|complety.suggest(json)  |suggest a json result                   |
+|complety.suggestion()   |returns the selected suggestion         |
+|complety.suggestions()  |returns suggestions from the last search|
+|complety.url()          |returns the actual builded url          |
+|complety.wrappers()     |returns the wrappers name               |
 
 ## Events
 
