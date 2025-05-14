@@ -1,3 +1,9 @@
+## v0.6.2
+
+### BugFix
+
++ Correctly ignores Regex characters by escaping them.
+
 ## v0.6.1
 
 ### BugFix
