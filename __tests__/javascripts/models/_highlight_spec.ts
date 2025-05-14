@@ -65,11 +65,11 @@ describe('#_highlight', () => {
     });
   });
 
-  context('when the key is a valid regex char', () => {
-    it('is removed from the match keeping the previous match', () => {
+  context('when the key has valid regex chars', () => {
+    it('removes some chars that does not make sense for search', () => {
       // given
 
-      document.querySelector('[data-field]').value = '[';
+      document.querySelector('[data-field]').value = '?.()[]*^+$';
 
       const complety = new $.complety.Complety('[data-field]', {
         keys: ['name'],
@@ -81,7 +81,61 @@ describe('#_highlight', () => {
       const result = complety._highlight(suggestion);
 
       // then
-      expect(result).toEqual({ name: '<b></b>John Doe' });
+      expect(result).toEqual({ name: 'John Doe' });
+    });
+
+    it('matches .', () => {
+      // given
+
+      document.querySelector('[data-field]').value = 'john.d';
+
+      const complety = new $.complety.Complety('[data-field]', {
+        keys: ['name'],
+      });
+
+      const suggestion = { name: 'John.Doe' };
+
+      // when
+      const result = complety._highlight(suggestion);
+
+      // then
+      expect(result).toEqual({ name: '<b>John.D</b>oe' });
+    });
+
+    it('matches $', () => {
+      // given
+
+      document.querySelector('[data-field]').value = 'john$d';
+
+      const complety = new $.complety.Complety('[data-field]', {
+        keys: ['name'],
+      });
+
+      const suggestion = { name: 'John$Doe' };
+
+      // when
+      const result = complety._highlight(suggestion);
+
+      // then
+      expect(result).toEqual({ name: '<b>John$D</b>oe' });
+    });
+
+    it('matches @', () => {
+      // given
+
+      document.querySelector('[data-field]').value = 'johndoe@gmail';
+
+      const complety = new $.complety.Complety('[data-field]', {
+        keys: ['email'],
+      });
+
+      const suggestion = { email: 'johndoe@gmail.com' };
+
+      // when
+      const result = complety._highlight(suggestion);
+
+      // then
+      expect(result).toEqual({ email: '<b>johndoe@gmail</b>.com' });
     });
   });
 });
