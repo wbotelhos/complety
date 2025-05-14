@@ -4,10 +4,7 @@
     "url": "https://github.com/wbotelhos/complety/issues"
   },
   "contributors": [
-    "Washington Botelho <wbotelhos@gmail.com> (http://wbotelhos.com)"
-  ],
-  "demos": [
-    "demo/index.html"
+    "Washington Botelho <wbotelhos@gmail.com> (https://www.wbotelhos.com)"
   ],
   "dependencies": {
     "jquery": "^3.7.1"
@@ -33,7 +30,7 @@
   "license": "MIT",
   "main": "lib/jquery.complety.js",
   "maintainers": [
-    "Washington Botelho <wbotelhos@gmail.com> (http://wbotelhos.com)"
+    "Washington Botelho <wbotelhos@gmail.com> (https://www.wbotelhos.com)"
   ],
   "name": "complety",
   "repository": {
