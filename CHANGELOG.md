@@ -1,3 +1,9 @@
+## v0.6.3
+
+### BugFix
+
++ Does not scape the characters of the URL.
+
 ## v0.6.2
 
 ### BugFix
