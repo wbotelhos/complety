@@ -1,24 +1,24 @@
-describe('common', function() {
+describe('common', () => {
   'use strict';
 
-  beforeEach(function() {
-    fixture.load('default.html');
+  beforeEach(() => {
+    loadHtml('default.html');
   });
 
-  it ('is chainable', function() {
+  it ('is chainable', () => {
     // given
-    var self = $('.complety');
+    const self = $('.complety');
 
     // when
-    var ref = self.complety();
+    const ref = self.complety();
 
     // then
     expect(ref).toBe(self);
   });
 
-  it ('has the right default options', function() {
+  it ('has the right default options', () => {
     // given
-    var options = $.complety;
+    const options = $.complety;
 
     // when
 
@@ -45,9 +45,9 @@ describe('common', function() {
     });
   });
 
-  it ('receives the bind indicator', function() {
+  it ('receives the bind indicator', () => {
     // given
-    var self = $('.complety');
+    const self = $('.complety');
 
     // when
     self.complety();
