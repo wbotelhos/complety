@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "lib"
+      ]
+    },
+    "target": "es6"
+  },
+  "include": [
+    "lib"
+  ]
+}
